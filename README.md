@@ -38,4 +38,5 @@ Find the reflections from this project on https://docs.google.com/document/d/1SK
 - **Meta's Prophet** for time series modelling.
 - **USGS** for fire data.
 - **US EPA** for air quality data through the AQS API.
+- **ChatGPT by OpenAI** for assisting in troubleshooting bugs and refining documentation throughout the analysis.
 
