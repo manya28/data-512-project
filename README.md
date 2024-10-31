@@ -11,7 +11,7 @@ The analysis includes calculating smoke estimates from fire data and estimating 
 The time series modelling was performed using **Meta's Prophet**, an open-source forecasting tool. More information about Prophet can be found here: [Meta's Prophet](https://facebook.github.io/prophet/).
 
 ## Intermediate Files
-Several intermediate files were created during the analysis for preprocessing and modelling purposes:
+The aqi_data_acquisition.ipynb notebook is responsible for generating the intermediate files containing the AQI data.
 
 1. **particulate_aqi.json**
    - **Description**: Contains daily summaries of particulate AQI for Omaha, NE from 1970 onwards.
