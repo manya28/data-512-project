@@ -30,6 +30,10 @@ This project is licensed under the MIT License.
 - **Air Quality Index (AQI) Data**: US Environmental Protection Agency (EPA) - Public Domain.
 - **Meta's Prophet**: Open-source under the [MIT License](https://github.com/facebook/prophet/blob/main/LICENSE).
 
+## Reflection
+
+Find the reflections from this project on https://docs.google.com/document/d/1SKiRPM7VabPD7-67cd1LAmwMG2iwIggVCcUVcv4weTU/edit?usp=sharing 
+
 ## Acknowledgements
 - **Meta's Prophet** for time series modelling.
 - **USGS** for fire data.
