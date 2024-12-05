@@ -18,6 +18,8 @@ The analysis aims to provide actionable insights for policymakers, farmers, and 
 3. **Air Quality Index (AQI) Data**:
    - Obtained via the [US Environmental Protection Agency (EPA) Air Quality System (AQS) API](https://aqs.epa.gov/aqsweb/documents/data_api.html#daily). The data contains daily summaries of gas and particulate air quality measurements.
 
+The raw fire data for Omaha, NE can be found in folder "generated_fire_files" named "omaha_fires.csv.gz".
+
 ### Supplementary Sources
 - **Wildfire Effects on Crops**: Reports from [Bayer Crop Science](https://www.cropscience.bayer.us/articles/bayer/wildfire-smoke-on-crops) and [Pioneer Agronomy](https://www.pioneer.com/us/agronomy/wildfires-crop-yields.html#PotentialEffectsOfSmokeOnCrops_3).
 
