@@ -57,7 +57,6 @@ The study employs advanced time-series forecasting models to analyze historical 
 
 ## Intermediate Files
 ### Generated Data Files
-## Intermediate Files
 
 The aqi_data_acquisition.ipynb notebook is responsible for generating the intermediate files containing the AQI data.
 
