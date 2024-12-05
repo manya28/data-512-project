@@ -23,7 +23,17 @@ The raw fire data for Omaha, NE can be found in folder "generated_fire_files" na
 ### Supplementary Sources
 - **Wildfire Effects on Crops**: Reports from [Bayer Crop Science](https://www.cropscience.bayer.us/articles/bayer/wildfire-smoke-on-crops) and [Pioneer Agronomy](https://www.pioneer.com/us/agronomy/wildfires-crop-yields.html#PotentialEffectsOfSmokeOnCrops_3).
 
-## Modelling Techniques
+## Methodology
+The analysis involves several key steps:
+
+- Data Acquisition: Collecting fire incident data, crop yields, and crop condition reports from the aforementioned sources.
+- Data Processing: Cleaning and merging datasets to create a comprehensive view of the variables.
+- Smoke Estimate Construction: Calculating a smoke exposure index based on the proximity and size of fires relative to Omaha.
+- Exploratory Data Analysis (EDA): Visualizing trends and correlations between smoke exposure and agricultural metrics.
+- Time-Series Forecasting: Using models like Meta's Prophet to predict future trends in smoke exposure and crop yields.
+- Impact Assessment: Evaluating the relationship between smoke estimates and crop conditions using statistical methods.
+
+## Modelling Techniques and Statistical Methods
 The study employs advanced time-series forecasting models to analyze historical data and project future trends:
 1. **Meta's Prophet**:  
    - Open-source forecasting model designed for interpretable analysis of seasonal and trend components.  
