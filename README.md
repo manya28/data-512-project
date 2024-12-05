@@ -83,7 +83,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 - **Meta's Prophet**: MIT License.
 
 ## Reflection
-A detailed reflection on the project methodology and insights can be found [here](https://docs.google.com/document/d/1SKiRPM7VabPD7-67cd1LAmwMG2iwIggVCcUVcv4weTU/edit?usp=sharing).
+A detailed reflection on the project methodology and insights can be found [here]([Final Project Report - DATA 512.pdf](https://github.com/manya28/data-512-project/blob/main/Final%20Project%20Report%20-%20DATA%20512.pdf)).
 
 ## Acknowledgements
 - **Meta's Prophet** for time-series modelling.  
