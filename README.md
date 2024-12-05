@@ -68,7 +68,8 @@ The aqi_data_acquisition.ipynb notebook is responsible for generating the interm
   
 The smoke_estimate_creation.ipynb notebook is resposnible for generating the following intermediate files.
 1. **forecasted-smoke_estimates.csv**:  
-   - Forecasted smoke estimates derived from fire data for Omaha, NE using Meta's Prophet model.  
+   - Forecasted smoke estimates derived from fire data for Omaha, NE using Meta's Prophet model.
+   - These values were used as external regressor input to forecast crop yields.  
 
 2. **smoke_estimates.csv**:  
    - Contains smoke estimates calculated for years 1960-2020 using the formula smoke estimate = burnt area / (distance of fire centroid from city center)^2
