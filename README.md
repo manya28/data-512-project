@@ -74,11 +74,11 @@ The smoke_estimate_creation.ipynb notebook is resposnible for generating the fol
    - Contains smoke estimates calculated for years 1960-2020 using the formula smoke estimate = burnt area / (distance of fire centroid from city center)^2
 
 ## Code and Documentation
-All analysis, data cleaning, and modelling processes are documented in the main [Jupyter notebook](https://github.com/manya28/data-512-project/blob/main/main.ipynb). Key steps include:  
+All steps for creating the smoke estimate are documented in [smoke_estimate_creation.ipynb](https://github.com/manya28/data-512-project/blob/main/smoke_estimate_creation.ipynb). Key steps include:  
 - Data acquisition and preprocessing  
 - Smoke estimate construction
 
-All analysis, data cleaning and modelling for establishing relationship of smoke estimate with agricultutral productivity are documented in the main-project . Key steps include:
+All analysis, data cleaning and modelling for establishing relationship of smoke estimate with agricultutral productivity are documented in [main_project.ipynb](https://github.com/manya28/data-512-project/blob/main/main_project.ipynb). Key steps include:
 - Exploratory data analysis (EDA)  
 - Time series and regression modelling  
 
@@ -91,7 +91,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 - **Meta's Prophet**: MIT License.
 
 ## Reflection
-A detailed reflection on the project methodology and insights can be found [here]([Final Project Report - DATA 512.pdf](https://github.com/manya28/data-512-project/blob/main/Final%20Project%20Report%20-%20DATA%20512.pdf)).
+A detailed reflection on the project methodology and insights can be found in my [Final Project Report - DATA 512.pdf](https://github.com/manya28/data-512-project/blob/main/Final%20Project%20Report%20-%20DATA%20512.pdf). It includes the motivation behind this project and the limitations of the analysis. You can also find my presentation for this project [here](https://docs.google.com/presentation/d/1-HFqaSx7TjBAh6pqIxzbE1jm1xaP5eyyTM4bNwoooCE/edit?usp=sharing)
 
 ## Acknowledgements
 - **Meta's Prophet** for time-series modelling.  
