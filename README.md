@@ -55,15 +55,12 @@ The aqi_data_acquisition.ipynb notebook is responsible for generating the interm
 2. **gaseous_aqi.json**
    - **Description**: Contains daily summaries of gaseous AQI for Omaha, NE from 1970 onwards.
   
-The mian notebook is resposnible for generating the following intermediate files.
-1. **fire_smoke_estimate.json**:  
-   - Smoke estimates derived from fire data for Omaha, NE.  
+The smoke_estimate_creation.ipynb notebook is resposnible for generating the following intermediate files.
+1. **forecasted-smoke_estimates.csv**:  
+   - Forecasted smoke estimates derived from fire data for Omaha, NE using Meta's Prophet model.  
 
-2. **crop_yield_condition.csv**:  
-   - Merged dataset of crop yield, conditions, and smoke estimates.
-
-3. **forecasted_yield.json**:  
-   - Predictions for corn and soybean yields using smoke estimates as regressors.
+2. **smoke_estimates.csv**:  
+   - Contains smoke estimates calculated for years 1960-2020 using the formula smoke estimate = burnt area / (distance of fire centroid from city center)^2
 
 ## Code and Documentation
 All analysis, data cleaning, and modelling processes are documented in the main [Jupyter notebook](https://github.com/manya28/data-512-project/blob/main/main.ipynb). Key steps include:  
